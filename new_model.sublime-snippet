@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+class ${1:Model name} extends CI_Model{
+	function __construct(){
+		parent::__construct();
+		$2
+	}
+	$3
+
+}
+]]></content>
+	<tabTrigger>cimodel</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
